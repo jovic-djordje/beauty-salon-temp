@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Bad+Script&family=Bebas+Neue&family=Bree+Serif&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Calistoga&family=Fredoka:wght@300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Manrope:wght@200..800&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Text:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Pacifico&family=Patua+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syncopate:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Bad+Script&family=Bebas+Neue&family=Bree+Serif&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Calistoga&family=Corben:wght@400;700&family=Fredoka:wght@300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Manrope:wght@200..800&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Text:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Pacifico&family=Patua+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syncopate:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <title>Belleza</title>
+  </head>
+  <body>
+    <header id="head">
+      <div class="header-holder">
+        <img src="images/logo.png" alt="logo" class="logo" />
+        <nav class="nav-holder">
+          <li class="nav-item"><a href="#service">Services</a></li>
+          <li class="nav-item"><a href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#booking">Booking</a></li>
+        </nav>
+        <!-- MOBILE MENU -->
+        <ion-icon name="menu-outline" class="mobile-menu"></ion-icon>
+        <div class="mobile-nav">
+          <div class="mobile-nav-holder">
+            <li class="nav-item"><a href="#service">Services</a></li>
+            <li class="nav-item"><a href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#booking">Booking</a></li>
+          </div>
+        </div>
+        <!-- MOBILE MENU-->
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-text-holder">
+          <h1 class="hero-title" data-aos="fade-up">
+            Where beauty meets confidence
+          </h1>
+          <p class="hero-text" data-aos="fade-up" data-aos-delay="200">
+            Discover a sanctuary of elegance and transformation. Every touch is
+            a promise of renewal.
+          </p>
+          <div class="hero-btns" data-aos="fade-up" data-aos-delay="400">
+            <a href="#booking">
+              <button class="hero-btn">Book appointment</button></a
+            >
+            <a href="#service"> <button>View services</button></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-section-holder section">
+          <div class="about-text-holder" data-aos="fade-right">
+            <h4>Craft</h4>
+            <h2 class="about-title">Artistry in every detail</h2>
+            <p class="about-text">
+              We believe beauty is not just about appearance, but about feeling
+              confident in your own skin. Our salon crafts personalized
+              experiences that honor your unique essence.
+            </p>
+            <ul class="about-list">
+              <li>Precision techniques</li>
+              <li>Expert stylists</li>
+              <li>Tailored transformations</li>
+            </ul>
+            <a href="#head"> <button class="about-btn">Read more</button></a>
+          </div>
+          <picture
+            ><img
+              src="images/about-img.png"
+              alt="salon-interior"
+              class="about-img"
+              data-aos="fade-left"
+          /></picture>
+        </div>
+      </section>
+
+      <section class="service-section" id="service">
+        <div class="service-section-holder section">
+          <div class="service-section-text-holder">
+            <h4>Expertise</h4>
+            <h2 class="service-title">Comprehensive beauty services</h2>
+            <p class="service-text">
+              Discover our range of specialized treatments designed to elevate
+              your natural beauty.
+            </p>
+          </div>
+          <div class="service-section-carts">
+            <!-- CART ONE -->
+            <div class="service-cart" data-aos="fade-up" data-aos-delay="0">
+              <picture>
+                <img
+                  src="images/service-img.png"
+                  alt="hair styling"
+                  class="service-img"
+                />
+              </picture>
+              <h3 class="cart-title">Hair styling</h3>
+              <p class="cart-text">
+                Precision cuts, color transformations, and styling that tells
+                your unique story.
+              </p>
+            </div>
+            <!-- CART ONE -->
+
+            <!-- CART TWO -->
+            <div class="service-cart" data-aos="fade-up" data-aos-delay="150">
+              <picture>
+                <img
+                  src="images/service-img (2).png"
+                  alt="hair styling"
+                  class="service-img"
+                />
+              </picture>
+              <h3 class="cart-title">Skin care</h3>
+              <p class="cart-text">
+                Advanced treatments that restore, rejuvenate, and reveal your
+                skin's natural radiance.
+              </p>
+            </div>
+            <!-- CART TWO -->
+
+            <!-- CART THREE -->
+            <div class="service-cart" data-aos="fade-up" data-aos-delay="300">
+              <picture>
+                <img
+                  src="images/service-img (3).png"
+                  alt="hair styling"
+                  class="service-img"
+                />
+              </picture>
+              <h3 class="cart-title">Nail services</h3>
+              <p class="cart-text">
+                Meticulous manicures and pedicures that blend artistry with
+                impeccable technique.
+              </p>
+            </div>
+            <!-- CART THREE -->
+
+            <!-- CART FOUR -->
+            <div class="service-cart" data-aos="fade-up" data-aos-delay="450">
+              <picture>
+                <img
+                  src="images/service-img (4).png"
+                  alt="hair styling"
+                  class="service-img"
+                />
+              </picture>
+              <h3 class="cart-title">Makeup</h3>
+              <p class="cart-text">
+                Professional makeup application for every occasion, enhancing
+                your natural beauty.
+              </p>
+            </div>
+            <!-- CART FOUR -->
+          </div>
+          <div class="service-btns">
+            <a href="#head"><button>Explore</button></a>
+            <a href="#booking">
+              <button class="service-btn">
+                Book now
+                <ion-icon
+                  name="chevron-forward-outline"
+                  class="service-btn-icon"
+                ></ion-icon></button
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="gallery-holder section">
+          <div class="gallery-text-holder">
+            <h2 class="gallery-title">Our gallery</h2>
+            <p class="gallery-text">
+              Moments of beauty captured in our sanctuary
+            </p>
+          </div>
+          <div class="gallery-img-holder">
+            <img
+              src="images/gallery-img.png"
+              alt="hair styling"
+              class="gallery-img"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            />
+
+            <img
+              src="images/gallery-img(2).png"
+              alt="skin care"
+              class="gallery-img"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            />
+
+            <img
+              src="images/gallery-img(3).png"
+              alt="salon interior"
+              class="gallery-img"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            />
+
+            <img
+              src="images/gallery-img(4).png"
+              alt="products"
+              class="gallery-img"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            />
+
+            <img
+              src="images/gallery-img (5).png"
+              alt="nail service"
+              class="gallery-img"
+              data-aos="zoom-in"
+              data-aos-delay="500"
+            />
+
+            <img
+              src="images/gallery-img(6).png"
+              alt="makeup"
+              class="gallery-img"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="client">
+        <div class="client-holder section">
+          <div class="client-text-holder">
+            <h2 class="client-title">Client stories</h2>
+            <p class="client-text">
+              Hear what our clients say about their transformative experiences
+            </p>
+          </div>
+
+          <div class="clients-carts-holder">
+            <!-- CART ONE -->
+            <div class="client-cart" data-aos="fade-up" data-aos-delay="0">
+              <div class="client-cart-width">
+                <div class="client-cart-icons">
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                </div>
+                <p class="client-cart-text">
+                  The salon transformed my confidence completely.
+                </p>
+                <div class="client-details">
+                  <img
+                    src="images/client-img.png"
+                    alt="profile picture"
+                    class="client-img"
+                  />
+                  <div class="client-info">
+                    <span>Emma Roberts</span>
+                    <p>Marketing director</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- CART ONE -->
+
+            <!-- CART ONE -->
+            <div class="client-cart" data-aos="fade-up" data-aos-delay="200">
+              <div class="client-cart-width">
+                <div class="client-cart-icons">
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                </div>
+                <p class="client-cart-text">
+                  Every treatment feels like a personal masterpiece.
+                </p>
+                <div class="client-details">
+                  <img
+                    src="images/client-img (2).png"
+                    alt="profile picture"
+                    class="client-img"
+                  />
+                  <div class="client-info">
+                    <span>Michaela Chen</span>
+                    <p>Creative professional</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- CART ONE -->
+
+            <!-- CART ONE -->
+            <div class="client-cart" data-aos="fade-up" data-aos-delay="400">
+              <div class="client-cart-width">
+                <div class="client-cart-icons">
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="client-icon"></ion-icon>
+                </div>
+                <p class="client-cart-text">
+                  Exceptional service that goes beyond expectations.
+                </p>
+                <div class="client-details">
+                  <img
+                    src="images/client-img (3).png"
+                    alt="profile picture"
+                    class="client-img"
+                  />
+                  <div class="client-info">
+                    <span>Sara Thompson</span>
+                    <p>Business consultant</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- CART ONE -->
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="booking">
+        <div class="cta-holder section">
+          <h2 class="cta-title" data-aos="fade-up">Ready to glow</h2>
+          <p class="cta-text" data-aos="fade-up" data-aos-delay="200">
+            Your journey to exceptional beauty starts with a single
+            consultation.
+          </p>
+          <div class="cta-btns" data-aos="zoom-in" data-aos-delay="400">
+            <a href="#head"> <button class="cta-btn">Book now</button></a>
+            <a href="#head"> <button>Contact us</button></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-holder section">
+        <div class="footer-nav">
+          <a href="#head"
+            ><img src="images/logo.png" alt="logo" class="logo"
+          /></a>
+          <nav class="footer-links">
+            <li class="footer-item"><a href="#service">Services</a></li>
+            <li class="footer-item"><a href="#gallery">Gallery</a></li>
+            <li class="footer-item"><a href="#about">About</a></li>
+            <li class="footer-item"><a href="#booking">Booking</a></li>
+          </nav>
+        </div>
+        <div class="attribute">
+          <p>©2025 Belleza. All rights reserved</p>
+          <span
+            >Coded by
+            <a href="https://www.instagram.com/djordjejovic_/" target="_blank"
+              >Djordje</a
+            ></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      AOS.init({
+        duration: 1000, // trajanje animacije u milisekundama (1s)
+        once: true, // animira samo jednom, ne svaki put kad skrolaš
+        offset: 100, // udaljenost od dna ekrana kad se aktivira
+      });
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
